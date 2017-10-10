@@ -1,0 +1,14 @@
+5 guessable words
+Prompt user to guess letters
+Until 6 wrong guess 
+
+
+
+
+On first node run 
+Prompt user to guess letter and on line below have symbol for missing letters like so 
+_ _ _ _ _ _ _ _ 
+
+Next run will take parse ant[2] if it equals a letter then show that letter if doesn’t then prompt you have X amount of guess X going down by one with each wrong answer 
+If X = 0 then prompt “you suck” 
+If X > 0 then keep allowing user input 
